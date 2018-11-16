@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/main_editText_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zadej otázku"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:text="Dodělá to Kája?" />
+
+    <Button
+        android:id="@+id/main_button_ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="askQuestion"
+        android:text="Zeptat se" />
+</LinearLayout>
